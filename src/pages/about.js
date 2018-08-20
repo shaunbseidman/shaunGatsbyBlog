@@ -9,7 +9,8 @@ const AboutPage = (props) => {
       <h2>About</h2>
       <Row>
         <Col xs={12} sm={4} className="sidebar-section">
-          <Image src="./../public/assets/shaun2.jpg" rounded="rounded"/>
+          <Image src="./assets/images/shaun2.jpg" rounded/>
+          <img src={"assets/shaun2.jpg"} />
           <p>I'm Shaun. I am a junior developer based in Denver, Colorado.</p>
           <p>I have recently graduated from Galvanize's six month Web Development Immersive course. The intent with creating this blogspace in addition to my personal website, <a href="http://www.shaunseidman.com">shaunseidman.com</a> was to have a living breathing blog where I can document my struggles finding a job.</p>
           <p>This blog was made using React and Gatsby, two technologies that are somewhat new to me</p>
@@ -37,5 +38,4 @@ const AboutPage = (props) => {
       </Row>
   </div>);
 }
-
 export default AboutPage
