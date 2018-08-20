@@ -6,3 +6,4 @@ author: 'Shaun Seidman'
 ---
 
 This is my first blog post, come **suffer** with me.
+Also, this WORKS

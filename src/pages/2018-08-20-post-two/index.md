@@ -5,4 +5,5 @@ title: "My Second Blog Post"
 author: "Shaun Seidman"
 ---
 
-Let's see if this one works
+Hello World  
+I'm Shaun. But you already know that. Here I will document my trials and tribulations of trying to find a job as a junior developer.

@@ -1,29 +1,4 @@
-// import React from 'react';
-// import Link from 'gatsby-link'
-//
-//
-//
-// const Menu  = (props) => {
-//   return (
-//     <div style={{
-//         background:'#f4f4f4',
-//         paddingTop:'10px',
-//       }}>
-//       <ul style={{
-//           listStyle:'none',
-//           display: 'flex',
-//           justifyContent: 'space-evenly'
-//         }}>
-//         <li><Link to='/'>Home</Link></li>
-//         <li><Link to='/about'>About</Link></li>
-//         <li><Link to='/skills'>Skills</Link></li>
-//         <li><Link to='/blog'>Blog</Link></li>
-//       </ul>
-//     </div>
-//   );
-// }
-//
-// export default Menu
+
 import React from 'react'
 import {Navbar, Nav, NavItem} from 'react-bootstrap'
 // import './menu.css'
@@ -47,6 +22,9 @@ const Menu = (props) => {
         </NavItem>
         <NavItem eventKey={2} componentClass={Link} href='/' to='/blog'>
           Blog
+        </NavItem>
+        <NavItem eventKey={2} componentClass={Link} href='/' to='/projects'>
+          Projects I'm Working On
         </NavItem>
       </Nav>
       <Nav pullRight>
