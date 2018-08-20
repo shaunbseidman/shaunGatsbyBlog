@@ -1,10 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: 'Shaun Seidman Blog',
+    title: 'A blog by Shaun',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-catch-links',
+    `gatsby-plugin-typography`,
     {
       resolve:'gatsby-source-filesystem',
       options: {
