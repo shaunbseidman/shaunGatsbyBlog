@@ -2,7 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import Header from '../components/header'
-import Navbar from '../components/customnavbar'
+// import Navbar from '../components/customnavbar'
+import Menu from '../components/menu'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/css/bootstrap-theme.css'
 import './index.css'
@@ -17,7 +18,7 @@ const Layout = ({ children, data }) => (
       ]}
     />
     <Header siteTitle={data.site.siteMetadata.title} />
-    <Navbar />
+    <Menu />
     <div
       style={{
         margin: '0 auto',

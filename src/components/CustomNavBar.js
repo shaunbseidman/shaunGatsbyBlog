@@ -1,9 +1,9 @@
-import React, {Component} from 'react'
+import React from 'react'
 import {Navbar, Nav, NavItem} from 'react-bootstrap'
 import './customnavbar.css'
 import Link from 'gatsby-link'
 
-const CustomNavbar  = (props) => {
+const CustomNavbar = (props) => {
   return (
     <Navbar staticTop default collapseOnSelect>
     <Navbar.Header>
