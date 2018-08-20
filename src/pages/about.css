@@ -9,3 +9,7 @@
   margin-top: -2em;
   margin-bottom: 2em;
 }
+
+.aboutInfo{
+display: flex;
+flex-direction: column;}

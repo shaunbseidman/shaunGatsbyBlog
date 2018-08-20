@@ -13,13 +13,13 @@ import {
 
 
 const IndexPage = () => (
-  <Grid>
+  <div>
     <Jumbotron>
-      <h1>Welcome to my blog</h1>
-      <p>Lessons learned from an unemployed junior dev</p>
+      <h1 className='indexh1'>Welcome to my blog</h1>
+      <p className='indexP'>Lessons learned from an unemployed junior dev</p>
   </Jumbotron>
 
-</Grid>
+</div>
 )
 
 export default IndexPage

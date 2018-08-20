@@ -9,7 +9,7 @@ import {
 } from 'react-bootstrap'
 
 const Projects = (props) => {
-  return (<Grid>
+  return (<div>
     <h1>These are a few small projects that I've been working on to keep my brain sharp</h1>
     <br/>
     <Jumbotron>
@@ -36,7 +36,7 @@ const Projects = (props) => {
         <Button bsStyle="primary" href="https://github.com/shaunbseidman/reactcalc" >GitHub</Button>
       </p>
     </Jumbotron>
-  </Grid>)
+  </div>)
 }
 
 export default Projects

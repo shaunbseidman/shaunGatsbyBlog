@@ -4,8 +4,8 @@ import {Grid, Row, Col, Image} from 'react-bootstrap';
 import './about.css';
 
 const AboutPage = (props) => {
-  return (<div>
-    <Grid>
+  return (
+    <div className = 'aboutInfo'>
       <h2>About</h2>
       <Row>
         <Col xs={12} sm={4} className="sidebar-section">
@@ -37,7 +37,6 @@ const AboutPage = (props) => {
           </p>
         </Col>
       </Row>
-    </Grid>
   </div>);
 }
 
