@@ -11,7 +11,7 @@ module.exports = {
       options: {
         path: `${__dirname}/src/pages`,
         name:'pages',
-        extensions: [ '', '.js', '.jsx' ],
+        extensions: [ '', '.js', '.jsx','css' ],
       }
     },
     'gatsby-transformer-remark'
