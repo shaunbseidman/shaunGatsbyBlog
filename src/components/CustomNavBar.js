@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import {Navbar, Nav, NavItem} from 'react-bootstrap'
-import './CustomNavbar.css'
+import './customnavbar.css'
 import Link from 'gatsby-link'
 
 

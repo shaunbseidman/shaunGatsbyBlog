@@ -1,7 +1,7 @@
 import React from 'react';
 import { Grid, Row, Col, Image } from 'react-bootstrap';
 
-import './About.css';
+import './about.css';
 
 
  const AboutPage  = (props) => {
