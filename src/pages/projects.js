@@ -21,7 +21,7 @@ const Projects = (props) => {
         A dynamic 'add to your order' burger web app built with React and Redux. Not vegan friendly
       </p>
       <p>
-        <Button bsStyle="primary">Learn more</Button>
+        <Button bsStyle="primary" href="https://github.com/shaunbseidman/betterburgerbuilder">GitHub</Button>
       </p>
     </Jumbotron>
     <Jumbotron>
@@ -33,7 +33,7 @@ const Projects = (props) => {
         Built with React, an iPhone calculator clone able to solve math problems. How meta.
       </p>
       <p>
-        <Button bsStyle="primary">Learn more</Button>
+        <Button bsStyle="primary" href="https://github.com/shaunbseidman/reactcalc" >GitHub</Button>
       </p>
     </Jumbotron>
   </Grid>)
