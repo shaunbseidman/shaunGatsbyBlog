@@ -16,7 +16,7 @@ const IndexPage = () => (
   <Grid>
     <Jumbotron>
       <h1>Welcome to my blog</h1>
-      <p>Lessons learned from a junior dev</p>
+      <p>Lessons learned from an unemployed junior dev</p>
   </Jumbotron>
 
 </Grid>
