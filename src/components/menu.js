@@ -26,7 +26,7 @@
 // export default Menu
 import React from 'react'
 import {Navbar, Nav, NavItem} from 'react-bootstrap'
-import './customnavbar.css'
+// import './menu.css'
 import Link from 'gatsby-link'
 
 const Menu = (props) => {
