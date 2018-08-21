@@ -3,11 +3,19 @@ import Link from 'gatsby-link'
 
 const BlogPage = ({data}) => (
   <div>
-    <h1>Latest Posts</h1>
+    <h1
+      style={{
+        fontWeight: '200'
+      }}
+      >Latest Posts</h1>
     <hr />
     {data.allMarkdownRemark.edges.map(post=>(
       <div key={post.node.id}>
-        <h3>{post.node.frontmatter.title}</h3>
+        <h3
+          style={{
+            fontWeight: '310'
+          }}
+          >{post.node.frontmatter.title}</h3>
         <small>Posted by: {post.node.frontmatter.author} on {post.node.frontmatter.date}</small>
         <br></br>
         <br></br>

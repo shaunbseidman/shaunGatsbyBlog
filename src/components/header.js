@@ -20,11 +20,17 @@ const Header = ({ siteTitle }) => (
           style={{
             color: 'white',
             textDecoration: 'none',
+            fontWeight: '300'
           }}
         >
         Shaun Seidman
         <br />
-        <small>Full Stack Developer</small>
+        <small
+          style={{
+            color:'#E8DADA',
+            fontWeight: '210'
+          }}
+          >Full Stack Developer</small>
         </Link>
       </h1>
     </div>

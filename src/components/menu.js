@@ -1,7 +1,7 @@
 
 import React from 'react'
 import {Navbar, Nav, NavItem} from 'react-bootstrap'
-// import './menu.css'
+import './menu.css'
 import Link from 'gatsby-link'
 
 const Menu = (props) => {
@@ -14,27 +14,27 @@ const Menu = (props) => {
     </Navbar.Header>
     <Navbar.Collapse>
       <Nav>
-        <NavItem eventKey={1} componentClass={Link} href='/' to='/'>
+        <NavItem className='navItem' eventKey={1} componentClass={Link} href='/' to='/'>
           Home
         </NavItem>
-        <NavItem eventKey={2} componentClass={Link} href='/' to='/about'>
+        <NavItem className='navItem' eventKey={2} componentClass={Link} href='/' to='/about'>
           About
         </NavItem>
-        <NavItem eventKey={2} componentClass={Link} href='/' to='/blog'>
-          Blog
+        <NavItem className='navItem' eventKey={2} componentClass={Link} href='/' to='/projects'>
+          Projects
         </NavItem>
-        <NavItem eventKey={2} componentClass={Link} href='/' to='/projects'>
-          Projects I'm Working On
+        <NavItem className='navItem' eventKey={2} componentClass={Link} href='/' to='/blog'>
+          Blog
         </NavItem>
       </Nav>
       <Nav pullRight>
-        <NavItem eventKey={1} href="http://www.shaunseidman.com">
+        <NavItem className='navItem' eventKey={1} href="http://www.shaunseidman.com">
           My Personal Website
         </NavItem>
-        <NavItem eventKey={2} href="https://github.com/shaunbseidman">
+        <NavItem className='navItem' eventKey={2} href="https://github.com/shaunbseidman">
           GitHub
         </NavItem>
-        <NavItem eventKey={3} href="https://www.linkedin.com/in/shaun-seidman/">
+        <NavItem className='navItem' eventKey={3} href="https://www.linkedin.com/in/shaun-seidman/">
           LinkedIn
         </NavItem>
       </Nav>

@@ -5,17 +5,26 @@ import './about.css';
 
 const AboutPage = (props) => {
   return (<div className='aboutInfo'>
-    <h1>About</h1>
+    <h1
+      style={{
+        fontWeight: '200'
+      }}
+      >About</h1>
     <Row>
       <Col xs={6} sm={4} className="sidebar-section">
         <Image src={shaun} rounded="rounded"/>
-        <p>I'm Shaun. I am a junior developer based in Denver, Colorado.</p>
-        <p>I have recently graduated from Galvanize's six month Web Development Immersive course. The intent with creating this blogspace in addition to my personal website: <a href="http://www.shaunseidman.com">shaunseidman.com</a> was to have a living breathing blog where I can document my struggles finding a job.</p>
+        <p>I'm Shaun. I am a full stack developer based in Denver, Colorado.</p>
+        <p>The intent with creating this space in addition to my <a href="http://www.shaunseidman.com">personal website</a>, was to have a living breathing blog where I can document my experiences post-Galvanize. I hope to showcase some projects and new technologies that I have been working in as well as talk about the trials and tribulations of the job hunt. </p>
         <p>This blog was made using React and Gatsby, two technologies that are somewhat new to me</p>
       </Col>
       <Col xs={6} sm={4} className="main-section">
-        <strong><p>My current stack includes: </p></strong>
+        <strong><p
+          style={{
+            fontWeight: '310'
+          }}
+          >My current stack includes: </p></strong>
         <hr />
+        <i>
           <ul>
             <li>React</li>
             <li>Vue.Js</li>
@@ -32,9 +41,14 @@ const AboutPage = (props) => {
             <li>Node.Js</li>
             <li>PostgreSQL</li>
           </ul>
+        </i>
       </Col>
       <Col xs={6} sm={4} className="main-section">
-        <strong><p>Feel free to contact me at:</p></strong>
+        <strong><p
+          style={{
+            fontWeight: '310'
+          }}
+          >Feel free to contact me at:</p></strong>
         <hr />
           <ul>
             <li>949.599.4271</li>

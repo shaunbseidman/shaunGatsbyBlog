@@ -12,11 +12,15 @@ import {
 
 const Projects = (props) => {
   return (<div>
-    <h1>These are a few small projects that I've been working on to keep my brain sharp</h1>
+    <h1
+      style={{
+        fontWeight: '200'
+      }}
+      >These are a few small projects that I've been working on to keep my brain sharp</h1>
     <hr />
     <br/>
     <Jumbotron style={{
-        padding: "10px"
+        padding: "10px",
       }}>
       <Col xs={5} md={5}>
         <Image src={burger} thumbnail="thumbnail"/>
@@ -24,7 +28,8 @@ const Projects = (props) => {
       <h1
         style={{
           display: 'flex',
-          flexDirection: 'row'
+          flexDirection: 'row',
+          fontWeight: '290'
         }}
         >Shaun's Better Burger Builder</h1>
       <p style={{
@@ -43,13 +48,14 @@ const Projects = (props) => {
     <Jumbotron style={{
         padding: "10px"
       }}>
-      <Col xs={5} md={3}>
+      <Col xs={5} md={2}>
         <Image src={calc} thumbnail="thumbnail"/>
       </Col>
       <h1
         style={{
           display: 'flex',
-          flexDirection: 'row'
+          flexDirection: 'row',
+          fontWeight: '290'
         }}
         >iPhone Calculator Clone</h1>
       <p>
