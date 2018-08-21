@@ -1,5 +1,7 @@
 import React from 'react';
 import {Grid, Row, Col, Image} from 'react-bootstrap';
+import shaun from './images/shaun2.jpg'
+
 
 import './about.css';
 
@@ -9,6 +11,7 @@ const AboutPage = (props) => {
       <h2>About</h2>
       <Row>
         <Col xs={12} sm={4} className="sidebar-section">
+          <img src = {shaun} />
           <Image src="./assets/images/shaun2.jpg" rounded/>
           <img src='/Users/shaunseidman/workshop/shaunSeidmanBlog/shaun_blog/src/assets/images/shaun2.jpg' />
           <p>I'm Shaun. I am a junior developer based in Denver, Colorado.</p>
