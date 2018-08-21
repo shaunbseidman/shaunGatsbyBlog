@@ -1,4 +1,6 @@
 import React from 'react';
+import burger from './images/burger.png'
+
 import {
   Jumbotron,
   Grid,
@@ -14,7 +16,7 @@ const Projects = (props) => {
     <br/>
     <Jumbotron>
       <Col xs={5} md={4}>
-        <Image src="/assets/shaun2.jpg" thumbnail/>
+        <Image src={burger} thumbnail/>
       </Col>
       <h1>Shaun's Better Burger Builder</h1>
       <p>
