@@ -4,6 +4,7 @@ import Link from 'gatsby-link'
 const BlogPage = ({data}) => (
   <div>
     <h1>Latest Posts</h1>
+    <hr />
     {data.allMarkdownRemark.edges.map(post=>(
       <div key={post.node.id}>
         <h3>{post.node.frontmatter.title}</h3>

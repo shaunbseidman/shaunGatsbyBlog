@@ -1,5 +1,6 @@
 .jumbotron {
   margin-bottom: 4em;
+
 }
 .person-wrapper {
   margin-bottom: 2em;
@@ -26,4 +27,14 @@ h3 {
 
 .indexP{
   padding: 10px;
+}
+
+.particles{
+}
+
+.particles canvas{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index : 99999;
 }

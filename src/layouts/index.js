@@ -7,6 +7,8 @@ import Menu from '../components/menu'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/css/bootstrap-theme.css'
 import './index.css'
+import anime from 'animejs'
+
 
 const Layout = ({ children, data }) => (
   <div>
