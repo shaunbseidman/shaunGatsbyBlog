@@ -1,5 +1,6 @@
 import React from 'react';
 import burger from './images/burger.png'
+import calc from './images/calc.png'
 
 import {
   Jumbotron,
@@ -27,8 +28,8 @@ const Projects = (props) => {
       </p>
     </Jumbotron>
     <Jumbotron>
-      <Col xs={5} md={4}>
-        <Image src="/assets/shaun2.jpg" thumbnail/>
+      <Col xs={5} md={3}>
+        <Image src={calc} thumbnail/>
       </Col>
       <h1>iPhone Calculator Clone</h1>
       <p>
