@@ -14,6 +14,7 @@ import {
 const Projects = (props) => {
   return (<div>
     <h1>These are a few small projects that I've been working on to keep my brain sharp</h1>
+    <hr />
     <br/>
     <Jumbotron style={{
         padding: "10px"

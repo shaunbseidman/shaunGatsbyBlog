@@ -6,7 +6,7 @@ import './about.css';
 
 const AboutPage = (props) => {
   return (<div className='aboutInfo'>
-    <h2>About</h2>
+    <h1>About</h1>
     <Row>
       <Col xs={6} sm={4} className="sidebar-section">
         <Image src={shaun} rounded="rounded"/>
@@ -15,7 +15,8 @@ const AboutPage = (props) => {
         <p>This blog was made using React and Gatsby, two technologies that are somewhat new to me</p>
       </Col>
       <Col xs={6} sm={4} className="main-section">
-        <p>My current stack includes and is not limited to:    </p>
+        <strong><p>My current stack includes: </p></strong>
+        <hr />
           <ul>
             <li>React</li>
             <li>Vue.Js</li>
@@ -35,7 +36,8 @@ const AboutPage = (props) => {
 
       </Col>
       <Col xs={6} sm={4} className="main-section">
-        <p>Feel free to contact me at:</p>
+        <strong><p>Feel free to contact me at:</p></strong>
+        <hr />
           <ul>
             <li>949.599.4271</li>
             <li>shaunseidman@gmail.com</li>
