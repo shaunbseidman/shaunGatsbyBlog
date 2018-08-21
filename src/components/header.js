@@ -11,7 +11,6 @@ const Header = ({ siteTitle }) => (
     <div
       style={{
         margin: '0 auto',
-        maxWidth: 960,
         padding: '1.45rem 1.0875rem',
       }}
     >
@@ -22,7 +21,10 @@ const Header = ({ siteTitle }) => (
             color: 'white',
             textDecoration: 'none',
           }}
-        >Shaun Seidman
+        >
+        Shaun Seidman
+        <br />
+        <small>Full Stack Developer</small>
         </Link>
       </h1>
     </div>
