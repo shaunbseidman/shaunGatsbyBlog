@@ -22,8 +22,7 @@ const Header = ({ siteTitle }) => (
             color: 'white',
             textDecoration: 'none',
           }}
-        >
-          {siteTitle}
+        >Shaun Seidman
         </Link>
       </h1>
     </div>

@@ -8,6 +8,20 @@ import 'bootstrap/dist/css/bootstrap-theme.css'
 import './index.css'
 import anime from 'animejs'
 import {PageHeader} from 'react-bootstrap'
+//
+// <PageHeader
+//   style={{
+//     margin: '0 auto',
+//     marginBottom: '0',
+//     padding: '15px',
+//     backgroundColor: '#fffff3'
+//   }}
+//   >
+//   Shaun Seidman
+//   <br />
+// <small>Full Stack Developer</small>
+// </PageHeader>
+
 
 const Layout = ({children, data}) => (<div>
   <Helmet title={data.site.siteMetadata.title} meta={[
@@ -19,18 +33,7 @@ const Layout = ({children, data}) => (<div>
         content: 'Gatsby, React, Blog'
       }
     ]}/>
-  <PageHeader
-    style={{
-      margin: '0 auto',
-      marginBottom: '0',
-      padding: '15px',
-      backgroundColor: '#fffff3'
-    }}
-    >
-    Shaun Seidman
-    <br />
-  <small>Full Stack Developer</small>
-  </PageHeader>
+  <Header />
   <Menu/>
   <div style={{
       margin: '0 auto',
