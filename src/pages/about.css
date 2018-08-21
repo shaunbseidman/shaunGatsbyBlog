@@ -11,5 +11,9 @@
 }
 
 .aboutInfo{
-display: flex;
-flex-direction: column;}
+  display: grid;
+}
+
+ul{
+  list-style: none;
+}
