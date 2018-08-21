@@ -1,7 +1,6 @@
 import React from 'react';
 import burger from './images/burger.png'
 import calc from './images/calc.png'
-
 import {
   Jumbotron,
   Grid,
@@ -19,7 +18,7 @@ const Projects = (props) => {
     <Jumbotron style={{
         padding: "10px"
       }}>
-      <Col xs={5} md={4}>
+      <Col xs={5} md={5}>
         <Image src={burger} thumbnail="thumbnail"/>
       </Col>
       <h1
@@ -27,7 +26,6 @@ const Projects = (props) => {
           display: 'flex',
           flexDirection: 'row'
         }}
-
         >Shaun's Better Burger Builder</h1>
       <p style={{
           display: 'flex',

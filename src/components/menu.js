@@ -34,6 +34,9 @@ const Menu = (props) => {
         <NavItem eventKey={2} href="https://github.com/shaunbseidman">
           GitHub
         </NavItem>
+        <NavItem eventKey={3} href="https://www.linkedin.com/in/shaun-seidman/">
+          LinkedIn
+        </NavItem>
       </Nav>
     </Navbar.Collapse>
   </Navbar>

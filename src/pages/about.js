@@ -1,7 +1,6 @@
 import React from 'react';
 import {Grid, Row, Col, Image} from 'react-bootstrap';
 import shaun from './images/shaun2.jpg'
-
 import './about.css';
 
 const AboutPage = (props) => {
@@ -33,7 +32,6 @@ const AboutPage = (props) => {
             <li>Node.Js</li>
             <li>PostgreSQL</li>
           </ul>
-
       </Col>
       <Col xs={6} sm={4} className="main-section">
         <strong><p>Feel free to contact me at:</p></strong>
@@ -41,7 +39,7 @@ const AboutPage = (props) => {
           <ul>
             <li>949.599.4271</li>
             <li>shaunseidman@gmail.com</li>
-            <li>shaunseidman.com</li>
+            <li><a href="http://www.shaunseidman.com">shaunseidman.com</a></li>
           </ul>
       </Col>
     </Row>
