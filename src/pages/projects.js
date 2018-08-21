@@ -22,7 +22,7 @@ const Projects = (props) => {
     <Jumbotron style={{
         padding: "10px",
       }}>
-      <Col xs={5} md={5}>
+      <Col xs={7} md={5}>
         <Image src={burger} thumbnail="thumbnail"/>
       </Col>
       <h1
