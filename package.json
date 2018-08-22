@@ -21,7 +21,9 @@
     "react-dom": "^16.4.2",
     "react-helmet": "^5.2.0",
     "react-particles-js": "^2.3.0",
-    "react-spring": "^5.6.7"
+    "react-spring": "^5.6.7",
+    "react-typed": "^1.0.9",
+    "typed.js": "^2.0.9"
   },
   "keywords": [
     "gatsby"
