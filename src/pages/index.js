@@ -17,8 +17,6 @@ import {
 } from 'react-bootstrap'
 //
 
-
-
 // const circleDiv = document.querySelector('.test')
 // const DraggableCircle = posed.circle({
 //   draggable: 'x',
@@ -52,19 +50,35 @@ import {
 // </div>
 //
 // <button onClick={buttonWorks}></button>
+// <Typed
+//   style={{
+//   }}
+//   strings={['Welcome to my blog']} typeSpeed={40}/>
+// <br/>
+// <Typed strings={['Lessons learned from a junior developer']} typeSpeed={90}/>
 
+const IndexPage = (props) => {
+  return (<div>
 
-const IndexPage=(props)=>{
-  return(
-    <div>
-      <Typed
+    <Jumbotron style={{
+        padding: "10px"
+      }}>
+      <Col xs={5} md={6}>
+      </Col>
+      <h1
         style={{
+          display: 'flex',
+          flexDirection: 'row',
+          fontWeight: '290'
         }}
-        strings={['Welcome to my blog']} typeSpeed={40}/>
-      <br/>
-      <Typed strings={['Lessons learned from a junior developer']} typeSpeed={90}/>
-   </div>
-  )
+        >Welcome to my blog</h1>
+      <hr />
+      <p>
+        Lessons learned from a junior developer.
+      </p>
+    </Jumbotron>
+
+  </div>)
 }
 
 export default IndexPage
