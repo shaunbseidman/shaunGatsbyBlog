@@ -1,6 +1,8 @@
 import React from 'react';
 import burger from './images/burger.png'
 import calc from './images/calc.png'
+import todo from './images/todo.png'
+
 import {
   Jumbotron,
   Grid,
@@ -22,8 +24,8 @@ const Projects = (props) => {
       <Jumbotron style={{
           padding: "10px"
         }}>
-        <Col xs={5} md={2}>
-          <Image src={calc} thumbnail="thumbnail"/>
+        <Col xs={5} md={6}>
+          <Image src={todo} thumbnail="thumbnail"/>
         </Col>
         <h1
           style={{
@@ -36,7 +38,9 @@ const Projects = (props) => {
           A full stack CRUD app built with PHP, Laravel, MySql and MAMP. This projected was created in three days having no previous experience in PHP. LOOK WHAT I CAN DO.
         </p>
         <p>
-          <Button bsStyle="primary" href="https://github.com/shaunbseidman/reactcalc">GitHub</Button>
+          <Button bsStyle="primary" href="https://github.com/shaunbseidman/todolaravel">GitHub</Button>
+          <br></br>
+          <Button bsStyle="primary" href="http://dry-wildwood-53910.herokuapp.com">Deployed App</Button>
         </p>
       </Jumbotron>
     <Jumbotron style={{
