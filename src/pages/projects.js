@@ -19,6 +19,26 @@ const Projects = (props) => {
       >These are a few small projects that I've been working on to keep my brain sharp</h1>
     <hr />
     <br/>
+      <Jumbotron style={{
+          padding: "10px"
+        }}>
+        <Col xs={5} md={2}>
+          <Image src={calc} thumbnail="thumbnail"/>
+        </Col>
+        <h1
+          style={{
+            display: 'flex',
+            flexDirection: 'row',
+            fontWeight: '290'
+          }}
+          >To Do or Not To Do</h1>
+        <p>
+          A full stack CRUD app built with PHP, Laravel, MySql and MAMP. This projected was created in three days having no previous experience in PHP. LOOK WHAT I CAN DO.
+        </p>
+        <p>
+          <Button bsStyle="primary" href="https://github.com/shaunbseidman/reactcalc">GitHub</Button>
+        </p>
+      </Jumbotron>
     <Jumbotron style={{
         padding: "10px",
       }}>
